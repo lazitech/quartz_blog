@@ -1,3 +1,32 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+    font-family: var(--bodyFont);
+    color: var(--dark);
+    font-weight: revert;
+    margin-bottom: 0;
+
+    article>&>a[role="anchor"] {
+        color: var(--dark);
+        background-color: transparent;
+    }
+}
+
+.article-title {
+    font-family: var(--headerFont);
+}
+
+.page-title {
+    font-family: var(--headerFont);
+}
+
+span.mord.cjk_fallback {
+    font-family: var(--bodyFont);
+}
