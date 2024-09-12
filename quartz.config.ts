@@ -22,7 +22,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Playwrite No", //Playwrite België Vlaams Gewest
+        header: "Playwrite NO", //Playwrite België Vlaams Gewest
         body: "Noto Serif SC",
         code: "Fira Code",
       },
