@@ -23,7 +23,7 @@ $\begin{align}          y = x \\    xxx\\      y = 3x^2 + 5x + 2          \end{a
 
 
 <style> 
-.center-formula { display: inline-block; text-align: center; } 
+.center-laformula { display: inline-block; text-align: center; } 
 </style> 
 
 
